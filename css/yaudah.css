@@ -1,0 +1,4 @@
+.dropdown-menu {
+  max-height: 200px; /* Atur tinggi maksimum sesuai keinginan Anda */
+  overflow-y: auto;  /* Aktifkan scrollbar vertikal jika konten melebihi tinggi maksimum */
+}

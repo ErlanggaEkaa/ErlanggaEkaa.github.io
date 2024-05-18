@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Menghindari scroll horizontal */
+    background: black;
+    color: white;
+    height: 200vh; /* Menambahkan tinggi halaman untuk memungkinkan scrolling */
+  }
+
+  .star {
+    position: fixed;
+    top: -10px;
+    width: 2px;
+    height: 2px;
+    background: rgb(192, 255, 3);
+    border-radius: 50%;
+    animation: fall linear infinite;
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }

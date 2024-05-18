@@ -1,0 +1,4 @@
+.image-zoomed {
+    transform: scale(1.2); /* Besar zoom, misalnya 1.2 untuk 20% zoom */
+    transition: transform 0.3s ease-in-out; /* Efek transisi saat zoom */
+}
