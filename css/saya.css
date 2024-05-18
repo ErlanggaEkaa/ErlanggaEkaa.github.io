@@ -1,0 +1,26 @@
+.custom-card {
+    background-color: #13140a;
+    transition: background-color 0.3s ease;
+    /* Atur ukuran card untuk layar yang lebih kecil */
+    padding: 20px;
+}
+
+/* CSS untuk teks di dalam card */
+.desc h3 {
+    margin-bottom: 0;
+}
+
+/* CSS untuk saat card di-hover */
+.custom-card:hover {
+    background-color: #ffbd39;
+}
+
+/* Media query untuk ukuran layar yang lebih kecil */
+@media (max-width: 768px) {
+    .custom-card {
+        /* Atur ukuran font dan padding untuk layar yang lebih kecil */
+        font-size: 14px;
+        padding: 15px;
+    }
+
+}
